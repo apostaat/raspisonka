@@ -17,5 +17,5 @@
   :plugins [[lein-environ "1.2.0"]]
   :main ^:skip-aot raspisonka.core
   :target-path "target/%s"
-  :profiles {:dev {:env {:telegram-token "1202238477:AAHITdcTRj1pV-7dL1Qb-2xAKtQHeuH9vCU"}}
+  :profiles {:dev {:env {:telegram-token "spikrali"}}
              :uberjar {:aot :all}})
